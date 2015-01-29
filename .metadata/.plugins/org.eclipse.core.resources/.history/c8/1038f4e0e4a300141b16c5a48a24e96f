@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class apples{
+	public static void main (String args[]){
+		Scanner emmer = new Scanner (System.in);
+		int tonijn = 5;
+		int krab = 3;
+		tonijn = ++tonijn;
+		System.out.println (tonijn);
+				
+		
+	}
+
+}

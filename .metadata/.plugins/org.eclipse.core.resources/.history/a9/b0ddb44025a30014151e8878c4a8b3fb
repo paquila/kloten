@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class apples{
+	public static void main (String args[]){
+		Scanner emmer = new Scanner (System.in);
+		double eerste, tweede, antwoord;
+		System.out.println ("Voer het eerste getal in ");
+		eerste = emmer.nextDouble();
+		System.out.println ("Voer het tweede getal in");
+		tweede = emmer.nextDouble();
+		System.out.println ("Dit is het antwoord");
+		antwoord = eerste + tweede;
+		System.out.println (antwoord);
+		
+	}
+
+}

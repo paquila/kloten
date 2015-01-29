@@ -1,0 +1,22 @@
+public class apples{
+	public static void main (String args[]){
+		int leeftijd;
+		leeftijd = 4;
+		
+	switch (leeftijd) {
+		case 1 : System.out.println("Jij kan kruipen");
+		break;
+		case 2 : System.out.println("Jij kan brabbelen");
+		break;
+		case 3 : System.out.println("Jij kan praten");
+		break;
+		case 4 : System.out.println("Jij kan voetballen");
+		break;
+		case 5 : System.out.println("Jij kan alles");
+	}			
+				
+
+		
+	}
+
+}

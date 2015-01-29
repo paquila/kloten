@@ -1,0 +1,12 @@
+public class apples{
+	public static void main (String args[]){
+		double telmachine = 0;
+		while ( telmachine < 11); {System.out.println(telmachine);
+		telmachine++;
+		}
+				
+
+		
+	}
+
+}

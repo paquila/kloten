@@ -1,0 +1,13 @@
+public class apples{
+	public static void main (String args[]){
+		double teller = 5;
+		while (teller < 11) {System.out.println(teller);
+		teller++;
+		}
+				
+				
+
+		
+	}
+
+}

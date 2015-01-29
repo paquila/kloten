@@ -1,0 +1,12 @@
+public class apples{
+	public static void main (String args[]){
+		int test = 8;
+		if (test <= 9) {
+			System.out.println("Waarheid");
+		} else {System.out.println("Leugen");}
+				
+
+		
+	}
+
+}

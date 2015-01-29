@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class apples{
+	public static void main (String args[]){
+		Scanner emmer = new Scanner (System.in);
+		int eerste, tweede, antwoord;
+		eerste = 11;
+		tweede = 3;
+		antwoord = eerste % tweede;
+		System.out.println (antwoord);
+		
+	}
+
+}

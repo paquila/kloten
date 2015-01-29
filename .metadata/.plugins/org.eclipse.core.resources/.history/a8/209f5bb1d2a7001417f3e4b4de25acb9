@@ -1,0 +1,7 @@
+
+public class tonijn {
+	public void simpleMessage(String naam) {
+		System.out.println("Hallo" + naam);
+	}
+
+}

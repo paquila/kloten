@@ -1,0 +1,14 @@
+public class apples{
+	public static void main (String args[]){
+		int jongen, meisje;
+		jongen = 16;
+		meisje = 55;
+			if(jongen<= 16 && meisje >= 60){System.out.println("Jij gaat terug naar de dondald duck");}
+			else{System.out.println("The gates of mordor open");}
+				
+				
+
+		
+	}
+
+}

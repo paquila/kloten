@@ -1,0 +1,7 @@
+
+public class tonijn {
+	public void simpleMessage() {
+		System.out.println("Dit is een andere class");
+	}
+
+}
