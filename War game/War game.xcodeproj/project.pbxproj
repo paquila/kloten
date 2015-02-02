@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C796876C1A7FD5E20043530E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C796876B1A7FD5E20043530E /* AppDelegate.swift */; };
+		C796876E1A7FD5E20043530E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C796876D1A7FD5E20043530E /* ViewController.swift */; };
+		C79687711A7FD5E20043530E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C796876F1A7FD5E20043530E /* Main.storyboard */; };
+		C79687731A7FD5E20043530E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C79687721A7FD5E20043530E /* Images.xcassets */; };
+		C79687761A7FD5E20043530E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C79687741A7FD5E20043530E /* LaunchScreen.xib */; };
+		C79687821A7FD5E20043530E /* War_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79687811A7FD5E20043530E /* War_gameTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C796877C1A7FD5E20043530E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C796875E1A7FD5E10043530E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C79687651A7FD5E10043530E;
+			remoteInfo = "War game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C79687661A7FD5E20043530E /* War game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "War game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C796876A1A7FD5E20043530E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C796876B1A7FD5E20043530E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C796876D1A7FD5E20043530E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C79687701A7FD5E20043530E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C79687721A7FD5E20043530E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C79687751A7FD5E20043530E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C796877B1A7FD5E20043530E /* War gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "War gameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C79687801A7FD5E20043530E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C79687811A7FD5E20043530E /* War_gameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = War_gameTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C79687631A7FD5E10043530E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79687781A7FD5E20043530E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C796875D1A7FD5E10043530E = {
+			isa = PBXGroup;
+			children = (
+				C79687681A7FD5E20043530E /* War game */,
+				C796877E1A7FD5E20043530E /* War gameTests */,
+				C79687671A7FD5E20043530E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C79687671A7FD5E20043530E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C79687661A7FD5E20043530E /* War game.app */,
+				C796877B1A7FD5E20043530E /* War gameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C79687681A7FD5E20043530E /* War game */ = {
+			isa = PBXGroup;
+			children = (
+				C796876B1A7FD5E20043530E /* AppDelegate.swift */,
+				C796876D1A7FD5E20043530E /* ViewController.swift */,
+				C796876F1A7FD5E20043530E /* Main.storyboard */,
+				C79687721A7FD5E20043530E /* Images.xcassets */,
+				C79687741A7FD5E20043530E /* LaunchScreen.xib */,
+				C79687691A7FD5E20043530E /* Supporting Files */,
+			);
+			path = "War game";
+			sourceTree = "<group>";
+		};
+		C79687691A7FD5E20043530E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C796876A1A7FD5E20043530E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C796877E1A7FD5E20043530E /* War gameTests */ = {
+			isa = PBXGroup;
+			children = (
+				C79687811A7FD5E20043530E /* War_gameTests.swift */,
+				C796877F1A7FD5E20043530E /* Supporting Files */,
+			);
+			path = "War gameTests";
+			sourceTree = "<group>";
+		};
+		C796877F1A7FD5E20043530E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C79687801A7FD5E20043530E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C79687651A7FD5E10043530E /* War game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C79687851A7FD5E20043530E /* Build configuration list for PBXNativeTarget "War game" */;
+			buildPhases = (
+				C79687621A7FD5E10043530E /* Sources */,
+				C79687631A7FD5E10043530E /* Frameworks */,
+				C79687641A7FD5E10043530E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "War game";
+			productName = "War game";
+			productReference = C79687661A7FD5E20043530E /* War game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C796877A1A7FD5E20043530E /* War gameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C79687881A7FD5E20043530E /* Build configuration list for PBXNativeTarget "War gameTests" */;
+			buildPhases = (
+				C79687771A7FD5E20043530E /* Sources */,
+				C79687781A7FD5E20043530E /* Frameworks */,
+				C79687791A7FD5E20043530E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C796877D1A7FD5E20043530E /* PBXTargetDependency */,
+			);
+			name = "War gameTests";
+			productName = "War gameTests";
+			productReference = C796877B1A7FD5E20043530E /* War gameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C796875E1A7FD5E10043530E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Paul Adelaar";
+				TargetAttributes = {
+					C79687651A7FD5E10043530E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C796877A1A7FD5E20043530E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C79687651A7FD5E10043530E;
+					};
+				};
+			};
+			buildConfigurationList = C79687611A7FD5E10043530E /* Build configuration list for PBXProject "War game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C796875D1A7FD5E10043530E;
+			productRefGroup = C79687671A7FD5E20043530E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C79687651A7FD5E10043530E /* War game */,
+				C796877A1A7FD5E20043530E /* War gameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C79687641A7FD5E10043530E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C79687711A7FD5E20043530E /* Main.storyboard in Resources */,
+				C79687761A7FD5E20043530E /* LaunchScreen.xib in Resources */,
+				C79687731A7FD5E20043530E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79687791A7FD5E20043530E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C79687621A7FD5E10043530E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C796876E1A7FD5E20043530E /* ViewController.swift in Sources */,
+				C796876C1A7FD5E20043530E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79687771A7FD5E20043530E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C79687821A7FD5E20043530E /* War_gameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C796877D1A7FD5E20043530E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C79687651A7FD5E10043530E /* War game */;
+			targetProxy = C796877C1A7FD5E20043530E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C796876F1A7FD5E20043530E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C79687701A7FD5E20043530E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C79687741A7FD5E20043530E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C79687751A7FD5E20043530E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C79687831A7FD5E20043530E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C79687841A7FD5E20043530E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C79687861A7FD5E20043530E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "War game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C79687871A7FD5E20043530E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "War game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C79687891A7FD5E20043530E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "War gameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/War game.app/War game";
+			};
+			name = Debug;
+		};
+		C796878A1A7FD5E20043530E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "War gameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/War game.app/War game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C79687611A7FD5E10043530E /* Build configuration list for PBXProject "War game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C79687831A7FD5E20043530E /* Debug */,
+				C79687841A7FD5E20043530E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C79687851A7FD5E20043530E /* Build configuration list for PBXNativeTarget "War game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C79687861A7FD5E20043530E /* Debug */,
+				C79687871A7FD5E20043530E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C79687881A7FD5E20043530E /* Build configuration list for PBXNativeTarget "War gameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C79687891A7FD5E20043530E /* Debug */,
+				C796878A1A7FD5E20043530E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C796875E1A7FD5E10043530E /* Project object */;
+}
